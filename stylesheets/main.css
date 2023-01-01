@@ -1,0 +1,45 @@
+/* 공통 스타일 */
+@import url("./common/theme.css");
+@import url("./common/base.css");
+
+/* 페이지별 스타일 */
+@import url("./pages/discovery.css");
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{margin: 0; list-style: none; color:#181818;}
+h1{font-size: 32px; display: inline-block; line-height: 48px;}
+h2{font-size: 28px; display: inline-block; line-height: 42px;}
+h3{font-size: 24px; display: inline-block; line-height: 36px;}
+h4{font-size: 16px; display: inline-block; line-height: 24px;}
+body{font-family: 'Noto Sans KR', sans-serif;}
+.wrap{width: 1020px;  margin: 0 auto; margin-top: 100px;}
+header{height: 48px; }
+header .logo{height: 48px; float: left;}
+#main{margin-top: 48px;}
+.articleTitle{display: flex; align-items: center; margin-top: 8px;}
+.articleTitle .line{margin: 0 10px;}
+.articleTitle h4{color:#AAA9A9;} 
+.articleProduct{width:100%; margin-top: 24px;}
+.left{float: left; height:310px; border:1px solid #C4C4C4;}
+.left:hover{border: 1px solid #0096E4;}
+.left:hover .purchaseBtn{visibility:visible;}
+.pro1{width:502px;}
+.pro1 img{width:446px; height: 270px; }
+.pro2{width:243px;} 
+.marginRight{margin-right: 16px;}
+.marginTop{margin-top: 16px;}
+.bg1{background-image: url(../assets/discovery/honeytea.jpg); background-position: center; background-repeat: no-repeat;}
+.bg2{background-image: url(../assets/discovery/vaseline.jpg); background-position: center; background-repeat: no-repeat;}
+.bg3{background-image: url(../assets/discovery/handcream.jpg); background-position: center; background-repeat: no-repeat;}
+.bg4{background-image: url(../assets/discovery/bibs.jpg); background-position: center; background-repeat: no-repeat;}
+.bg5{background-image: url(../assets/discovery/hanssem.jpg); background-position: center; background-repeat: no-repeat;}
+.bg6{background-image: url(../assets/discovery/dumpling.jpg); background-position: center; background-repeat: no-repeat;}
+.bg7{background-image: url(../assets/discovery/wettissue.jpg); background-position: center; background-repeat: no-repeat;}
+.bg8{background-image: url(../assets/discovery/febreze.jpg); background-position: center; background-repeat: no-repeat;}
+.bg9{background-image: url(../assets/discovery/dyson.jpg); background-position: center; background-repeat: no-repeat;}
+.purchaseBtn{background-color: #0074E9; width:112px; height:42px; display:flex; align-items: center;
+              justify-content: center; position: absolute; left:20px; top:248px; visibility: hidden; cursor: pointer;}
+.text14{font-size: 14px; color:#fff; line-height: 16px;}
+.text14::before{content: "구매하기"; margin-right: 10px;}
+.text14::after{content: ">";}
+.rel{position: relative;}
